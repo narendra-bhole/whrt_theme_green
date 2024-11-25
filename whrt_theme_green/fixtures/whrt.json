@@ -1,0 +1,35 @@
+[
+ {
+  "background_color": null,
+  "button_gradients": 0,
+  "button_rounded_corners": 1,
+  "button_shadows": 0,
+  "custom": 1,
+  "custom_overrides": null,
+  "custom_scss": ".for-login .page-card, .for-forgot .page-card, .for-login-with-email-link .page-card, .for-signup .page-card, .for-email-login .page-card {\r\n    background-color: rgb(63, 122, 200) !important;\r\n    max-width: 400px;\r\n    padding: 45px 10px;\r\n    margin: 0px auto;\r\n    border-radius: var(--border-radius-md);\r\n    border: 1px solid var(--border-color);\r\n}\r\n\r\n.navbar-light {\r\n    border-bottom: 1px solid rgb(226, 226, 226);\r\n    background: rgb(236, 131, 5);\r\n}\r\n\r\nbody{\r\n    background-color: rgb(9, 16, 87) !important;\r\n}\r\n\r\n.page-card-head h4 {\r\n    margin-top: 1rem;\r\n    font-size: var(--text-xl);\r\n    font-weight: var(--weight-semibold);\r\n    letter-spacing: 0.01em;\r\n    color: #fffcfc !important;\r\n}\r\n\r\n.for-login .page-card .page-card-body .forgot-password-message > *, .for-forgot .page-card .page-card-body .forgot-password-message > *, .for-login-with-email-link .page-card .page-card-body .forgot-password-message > *, .for-signup .page-card .page-card-body .forgot-password-message > *, .for-email-login .page-card .page-card-body .forgot-password-message > * {\r\n    color: #ffffff !important;\r\n    font-size: var(--text-sm);\r\n    font-weight: var(--weight-regular);\r\n    letter-spacing: 0.02em;\r\n}\r\n\r\n.navbar-light .navbar-brand {\r\n    color: rgb(255 255 255) !important;\r\n}\r\n\r\n.text-muted {\r\n    color: #ffffff !important;\r\n}\r\n\r\n.btn.btn-primary {\r\n    background-color: #0c0c4f;\r\n    color: #fdfdfd;\r\n    white-space: nowrap;\r\n    --icon-stroke: rgb(255 254 254);\r\n    --icon-fill-bg: #000000;\r\n}\r\n\r\n.for-login .page-card .page-card-body .password-field .toggle-password {\r\n    color: black !important;\r\n}\r\n\r\n.sidebar-item a{\r\n    color: white !important;\r\n}\r\n\r\n.my-account-header {\r\n    color: white !important;\r\n}\r\n\r\n.standard-sidebar-item.selected .sidebar-item-label.selected {\r\n    color: black !important;\r\n}",
+  "dark_color": null,
+  "docstatus": 0,
+  "doctype": "Website Theme",
+  "font_properties": "wght@300;400;500;600;700;800",
+  "font_size": null,
+  "google_font": null,
+  "ignored_apps": [
+   {
+    "app": "whitelabel",
+    "parent": "green_theme_login",
+    "parentfield": "ignored_apps",
+    "parenttype": "Website Theme"
+   }
+  ],
+  "js": null,
+  "light_color": null,
+  "modified": "2024-11-18 14:36:23.358397",
+  "module": "Website",
+  "name": "green_theme_login",
+  "primary_color": null,
+  "text_color": null,
+  "theme": "green_theme_login",
+  "theme_scss": "$enable-shadows: false;\n$enable-gradients: false;\n$enable-rounded: true;\n\n// Bootstrap Variable Overrides\n\n\n// Import themes from installed apps\n@import \"frappe/public/scss/website.bundle\";\n@import \"erpnext/public/scss/website\";\n\n\n\n// Custom Theme\n.for-login .page-card, .for-forgot .page-card, .for-login-with-email-link .page-card, .for-signup .page-card, .for-email-login .page-card {\r\n    background-color: rgb(63, 122, 200) !important;\r\n    max-width: 400px;\r\n    padding: 45px 10px;\r\n    margin: 0px auto;\r\n    border-radius: var(--border-radius-md);\r\n    border: 1px solid var(--border-color);\r\n}\r\n\r\n.navbar-light {\r\n    border-bottom: 1px solid rgb(226, 226, 226);\r\n    background: rgb(236, 131, 5);\r\n}\r\n\r\nbody{\r\n    background-color: rgb(9, 16, 87) !important;\r\n}\r\n\r\n.page-card-head h4 {\r\n    margin-top: 1rem;\r\n    font-size: var(--text-xl);\r\n    font-weight: var(--weight-semibold);\r\n    letter-spacing: 0.01em;\r\n    color: #fffcfc !important;\r\n}\r\n\r\n.for-login .page-card .page-card-body .forgot-password-message > *, .for-forgot .page-card .page-card-body .forgot-password-message > *, .for-login-with-email-link .page-card .page-card-body .forgot-password-message > *, .for-signup .page-card .page-card-body .forgot-password-message > *, .for-email-login .page-card .page-card-body .forgot-password-message > * {\r\n    color: #ffffff !important;\r\n    font-size: var(--text-sm);\r\n    font-weight: var(--weight-regular);\r\n    letter-spacing: 0.02em;\r\n}\r\n\r\n.navbar-light .navbar-brand {\r\n    color: rgb(255 255 255) !important;\r\n}\r\n\r\n.text-muted {\r\n    color: #ffffff !important;\r\n}\r\n\r\n.btn.btn-primary {\r\n    background-color: #0c0c4f;\r\n    color: #fdfdfd;\r\n    white-space: nowrap;\r\n    --icon-stroke: rgb(255 254 254);\r\n    --icon-fill-bg: #000000;\r\n}\r\n\r\n.for-login .page-card .page-card-body .password-field .toggle-password {\r\n    color: black !important;\r\n}\r\n\r\n.sidebar-item a{\r\n    color: white !important;\r\n}\r\n\r\n.my-account-header {\r\n    color: white !important;\r\n}\r\n\r\n.standard-sidebar-item.selected .sidebar-item-label.selected {\r\n    color: black !important;\r\n}\n\n:root {\n\t}\n",
+  "theme_url": "/files/website_theme/green_theme_login.css"
+ }
+]
