@@ -23,6 +23,11 @@ frappe.ui.ThemeSwitcher = class CustomThemeSwitcher extends frappe.ui.ThemeSwitc
 					info: __("WHRT Custom"),
 				},
 				{
+					name: "whrt_theme_green",
+					label: __("WHRT Theme Green"),
+					info: __("WHRT Green"),
+				},
+				{
 					name: "automatic",
 					label: "Automatic",
 					info: "Uses system's theme to switch between light and dark mode",
